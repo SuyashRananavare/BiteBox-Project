@@ -3,26 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e150400852.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css">
     <title>BiteBox</title>
 </head>
 
 <body>
     <header>
         <nav>
-            <h2>Bite<span style="color: red;">Box</span></h2>
+            <img src="images/logo.png" alt="BiteBox logo">
             <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="bitedeals.html">BiteDeals</a></li>
-                <li><a href="Cart.html">Cart</a></li>
-                <li><a href="login.html">Login</a></li>
+                <li><a href="home.html">Home <i class="fa-solid fa-house"></i></a></li>
+                <li><a href="menu.html">Menu <i class="fa-solid fa-bars"></i></a></li>
+                <li><a href="bitedeals.html">Bite Deals <i class="fa-solid fa-handshake"></i></a></li>
+                <li><a href="Cart.html">Cart <i class="fa-solid fa-cart-plus"></i></a></li>
+                <li class="login-btn"><a href="login.html">Login <i class="fa-solid fa-arrow-right-to-bracket"></i></a></li>
 
             </ul>
         </nav> 
     </header>
 
-    <section>
-        This is the main section 
+    <section class="hero">
+         <div class="hero-content">
+            <h1>Delicious Food Delivered Fast</h1>
+            <p>Orders favourite meals anytime,anywhere...</p>
+            <button> Order Now</button>
+         </div>
+    </section>
+
+    <section class="video-section">
+        <div class="video-text">
+            <h2>Our Food Story</h2>
+            <p>Experience the taste of delicious meals crafted with love. From Burgers to Pizzas,
+                we deliver hapiness at your doorstep 
+            </p>
+        </div>
+
+        <div class="video-box">
+            <video autoplay muted loop playsinline>
+                <source src="media/Vedio.mp4" type="video/mp4">
+            </video>
+        </div>
+
     </section>
 
     <footer>

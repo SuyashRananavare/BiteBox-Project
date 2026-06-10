@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+nav img {
+    height: 30px;
+    width: 120px;
+}
+
+nav h2{
+color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav a:hover {
+    color: red;
+}
+
+
+ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    align-items: center;
+}
+
+.login-btn{
+    background-color: red;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 8px;
+}
+
+.login-btn a:hover {
+    color: black;
+}
+
+.hero {
+    height: 90vh;
+    background-image: url('https://wallpapers.com/images/hd/food-4k-1pf6px6ryqfjtnyr.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    align-content: center;
+    color: white;
+}
+
+
+.hero button {
+    background-color: red;
+    color: white;
+    padding: 6px 12px;
+    margin-top: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: brown;
+}
+
+.video-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 40px;
+    background-color: black;
+    /* background-image: linear-gradient(black,#3d3c38); */
+}
+
+.video-text {
+    flex: 1;
+    color: white;
+}
+
+.video-box {
+    flex: 1;
+}
+
+.video-box video {
+    border-radius: 30px;
+}
+
+
+
