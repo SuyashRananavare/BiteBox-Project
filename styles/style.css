@@ -7,10 +7,13 @@ nav {
     display: flex;
     justify-content: space-between;
     background-color: black;
+    padding-left: 15px;
+    padding-right: 5px;
+    height: 40px;
 }
 
 nav img {
-    height: 30px;
+    height: 35px;
     width: 120px;
 }
 
@@ -96,5 +99,81 @@ ul{
     border-radius: 30px;
 }
 
+.about{
+    text-align: center;
+    background-color: (247,217,217);
+    padding: 20px 20px;
+}
 
+.about h2{
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    font-family: cursive;
+    font-weight: bold;
+    color: rgb(39, 30, 30);
+    margin-bottom: 20px;
+}
 
+.about p {
+    font-size: 20px;
+    max-width: 700px;
+    line-height: 2;
+    margin: auto;
+}
+
+.card{
+    border-radius: 15px;
+    box-shadow: 0 8px 16px black;
+    text-align: center;
+    padding: 20px;
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card button {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.menu-conatiner {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px; 
+    padding: 20px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+.category-icons {
+    display: flex;
+    justify-content:center ;
+    overflow: auto;
+    margin-top: 30px;
+}
+
+.icon-box {
+    min-width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.icon-box img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 4px;
+}
+
+.icon-box img:hover {
+    transform: scale(1.2 );
+}
