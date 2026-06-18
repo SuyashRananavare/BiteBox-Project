@@ -3,9 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e150400852.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css">
     <title>Document</title>
 </head>
 <body>
-    <h2>Cart Page</h2>
+     <header>
+        <nav>
+            <img src="images/logo.png" alt="BiteBox logo">
+            <ul>
+                <li><a href="home.html">Home <i class="fa-solid fa-house"></i></a></li>
+                <li><a href="menu.html">Menu <i class="fa-solid fa-bars"></i></a></li>
+                <li><a href="bitedeals.html">Bite Deals <i class="fa-solid fa-handshake"></i></a></li>
+                <li><a href="Cart.html">Cart <i class="fa-solid fa-cart-plus"></i></a></li>
+                <li class="login-btn"><a href="login.html">Login <i class="fa-solid fa-arrow-right-to-bracket"></i></a></li>
+
+            </ul>
+        </nav> 
+    </header>
+
+    <section class="cart">
+        <table>
+            <thead>
+                <th> Item </th>
+                <th> Price </th>
+                <th> Quantity </th>
+                <th> Total </th>
+                <th> Remove </th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="item">
+                    <img src="https://assets.bonappetit.com/photos/5b919cb83d923e31d08fed17/4:3/w_2666,h_2000,c_limit/basically-burger-1.jpg" alt="">
+                    <div>
+                        <h4>Burger</h4>
+                        <p>Juicy Grilled burger</p>
+                    </div>
+                    </td>
+
+                    <td>Rs.199</td>
+                    <td>
+                        <div class="qty-box">
+                            <button>-</button>
+                            <span>2</span>
+                            <button>+</button>
+                        </div>
+                    </td>
+
+                    <td>Rs.398</td>
+                    <td><button class="remove">X</button></td>
+                </tr>
+
+                <tr>
+                    <td class="item">
+                    <img src="" alt="">
+                    <div>
+                        <h4>Burger</h4>
+                        <p>Juicy Grilled burger</p>
+                    </div>
+                    </td>
+
+                    <td>Rs.199</td>
+                    <td>
+                        <div class="qty-box">
+                            <button>-</button>
+                            <span>2</span>
+                            <button>+</button>
+                        </div>
+                    </td>
+
+                    <td>Rs.398</td>
+                    <td><button class="remove">X</button></td>
+                </tr>
+
+                <tr>
+                    <td class="item">
+                    <img src="" alt="">
+                    <div>
+                        <h4>Burger</h4>
+                        <p>Juicy Grilled burger</p>
+                    </div>
+                    </td>
+
+                    <td>Rs.199</td>
+                    <td>
+                        <div class="qty-box">
+                            <button>-</button>
+                            <span>2</span>
+                            <button>+</button>
+                        </div>
+                    </td>
+
+                    <td>Rs.398</td>
+                    <td><button class="remove">X</button></td>
+                </tr>
+
+                <tr>
+                    <td colspan="3"><b>Grand Total</b></td>
+                    <td> <b> Rs.1592 </b></td>
+                    <td><button> <b></button></b></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
 </body>
 </html>
