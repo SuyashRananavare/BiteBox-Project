@@ -3,9 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://kit.fontawesome.com/e150400852.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css">
     <title>Document</title>
 </head>
 <body>
-    <h2>Login Page</h2>
+    <header>
+        <nav>
+            <img src="images/logo.png" alt="BiteBox logo">
+            <ul>
+                <li><a href="index.html"> Home <i class="fa-solid fa-house"></i></a></li>
+            </ul>
+        </nav> 
+    </header>
+
+    <section class="auth-container">
+        <div class="auth-box">
+            <h2>Login to Bite <span>Box</span></h2>
+            <form>
+                <input type="email" placeholder="Enter email" required>
+                <input type="password" placeholder="Enter password" required>
+                <button>Login</button>
+            </form>
+            <p><a href="signup.html">Forgot password</a></p>
+            <p>Don't have an account ?<a href="signup.html">Signup</a></p>
+        </div>
+    </section>
 </body>
 </html>
