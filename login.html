@@ -21,13 +21,23 @@
         <div class="auth-box">
             <h2>Login to Bite <span>Box</span></h2>
             <form>
-                <input type="email" placeholder="Enter email" required>
-                <input type="password" placeholder="Enter password" required>
-                <button>Login</button>
+                <input type="email" placeholder="Enter email" required id="email"><br>
+                <div class="password-con  tainer">
+                <div class="input">
+                <input type="password" placeholder="Enter password" required id="password"><br>
+                </div>
+                <div class="icon">
+                    <i class="fa-solid fa-eye" onclick="togglePassword()"></i>
+                </div>
+                </div>
+                <button type="button" onclick="login()" type="button">Login</button>
             </form>
+            <p id="error" style="color: red;"></p>
             <p><a href="signup.html">Forgot password</a></p>
             <p>Don't have an account ?<a href="signup.html">Signup</a></p>
         </div>
     </section>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
